@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 });
 
 
-var originsWhitelist = ['http://localhost:4200', 'https://jolly-bassi-749645.netlify.app', 'https://software-security-project.vercel.app'];
+var originsWhitelist = ['https://software-security-project.vercel.app'];
 
 var corsOptions = {
   origin: function (origin, callback) {
