@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 });
 
 
-var originsWhitelist = ['http://localhost:4200'];
+var originsWhitelist = ['http://localhost:4200', 'https://jolly-bassi-749645.netlify.app/'];
 
 var corsOptions = {
   origin: function (origin, callback) {
